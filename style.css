@@ -34,6 +34,23 @@ body {
     color:#ea1c2c;
 }
 
+/* Section 2 */
+.theRow {
+    margin-top: 100px;
+}
+
+.theRow h2 {
+    font-weight: 100;
+    color: #ea1c2c;
+}
+
+.theRow p {
+    color: #f498b8;
+    font-size: 1.125rem;
+    font-weight: 100;
+    line-height: 2;
+}
+
 /* Media queries */
 @media (max-width: 1215px) {
     .headings h1 {
