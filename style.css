@@ -1,0 +1,42 @@
+/* Body */
+body {
+    background-color: #f5d9df;
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+}
+
+/* Navigation Bar */
+#NavigationBar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#NavigationBar .navbar-brand {
+    color: #ea1c2c;
+}
+
+#NavigationBar .nav-link {
+    color: white;
+}
+
+#NavigationBar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+/* Section 1: Headings */
+.headings h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.headings span {
+    color:#ea1c2c;
+}
+
+/* Media queries */
+@media (max-width: 1215px) {
+    .headings h1 {
+        font-size: 3rem;
+    }
+}
