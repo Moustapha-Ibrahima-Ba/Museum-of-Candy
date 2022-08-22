@@ -107,6 +107,33 @@
           </div>
         </div>
       </section>
+
+      <!-- Section 3 -->
+      <section class="container-fluid px-0">
+        <div class="row align-items-center theRow">
+          <div class="col-md-6 text-center">
+            <div class="row justify-content-center mb-5 mb-md-0">
+              <div class="col-10 col-lg-8">
+                <h2>MUSEUM OF CANDY</h2>
+                <img
+                  src="imgs/lolli_icon.png"
+                  class="img-fluid d-none d-lg-inline"
+                  alt="lolli"
+                />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore delectus voluptatum cumque accusamus inventore iusto
+                  magni, soluta perferendis eligendi sunt dolorum rem nemo
+                  ratione, fugit debitis ad atque sequi ipsa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="imgs/gumball.png" class="img-fluid" alt="gunball" />
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- Optional JavaScript -->
@@ -126,5 +153,13 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#NavigationBar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>
